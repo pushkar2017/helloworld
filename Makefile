@@ -8,4 +8,4 @@ test: build
 
 perftest: build
 	@echo "Running $@"
-	./runtests.sh
+	./hello 1 2 3 4
