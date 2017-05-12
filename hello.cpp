@@ -3,6 +3,11 @@ using namespace std;
 
 int main(int argc, char ** argv) {
   
-  cout << "hello world" << endl;
+  if (argc > 1) {
+    cout << "hello " << argv[1] << endl;
+  }
+  else {
+    cout << "hello world" << endl;
+  }
   return 0;
 }
