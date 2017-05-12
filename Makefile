@@ -5,3 +5,7 @@ build:
 test: build
 	@echo "Running $@"
 	./hello
+
+perftest: build
+	@echo "Running $@"
+	./runtests.sh
